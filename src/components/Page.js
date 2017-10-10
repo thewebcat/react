@@ -9,9 +9,9 @@ class Page extends Component {
         const { year, photos, fetching } = this.props
         return <div>
             <p>
-                <button className="btn btn-info mx-3" onClick={this.onYearBtnClick}>2016</button>
-                <button className="btn btn-info mx-3" onClick={this.onYearBtnClick}>2015</button>
-                <button className="btn btn-info mx-3" onClick={this.onYearBtnClick}>2014</button>
+                <button className="btn btn-info mx-2" onClick={this.onYearBtnClick}>2016</button>
+                <button className="btn btn-info mx-2" onClick={this.onYearBtnClick}>2015</button>
+                <button className="btn btn-info mx-2" onClick={this.onYearBtnClick}>2014</button>
             </p>
             <h3>{year} год</h3>
             {
